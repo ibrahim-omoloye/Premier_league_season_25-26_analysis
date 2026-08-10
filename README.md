@@ -32,6 +32,18 @@ This project explores team and match performance using match-level data sourced 
 ## Files
 
 - `PL_analysis_queries.sql` — all 8 SQL queries used in this analysis
+- - `advanced_sql_techniques.sql` — window functions, CTEs, temp tables, stored procedures, triggers, and events
+
+## Advanced SQL Techniques
+
+Beyond the core analysis, this project also includes a second file — `advanced_sql_techniques.sql` — demonstrating:
+
+- **Window Functions** — `RANK()`, `DENSE_RANK()`, `LAG()` for ranking teams and calculating goal gaps between consecutive ranks
+- **CTEs (Common Table Expressions)** — including chained, multi-step CTEs
+- **Temporary Tables** — reusable intermediate result sets queried across multiple statements
+- **Stored Procedures** — parameterized procedures (e.g., get any team's win rate, or all matches officiated by a given referee)
+- **Triggers** — `BEFORE INSERT` validation (blocking invalid data) and `AFTER INSERT` logging (automatic audit trail)
+- **Events** — scheduled automation to keep a summary table refreshed on a timer
 
 ## Links
 
